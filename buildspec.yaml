@@ -1,9 +1,9 @@
-!buildspec version: 0.2
+version: 0.2
 
 phases:
   install:
     runtime-versions:
-      java: corretto11
+      java: corretto17
   build:
     commands:
       - echo Build started on `date`
